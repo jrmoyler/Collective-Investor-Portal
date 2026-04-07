@@ -1,0 +1,19 @@
+{
+  "name": "collective-ai-investor-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Collective AI — Investor Intelligence & Outreach Dashboard",
+  "scripts": {
+    "dev": "node api/server.js",
+    "start": "node api/server.js",
+    "vercel-build": "echo 'No build step needed'"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "uuid": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
